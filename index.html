@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css ">
+        <title>Mini Project</title>
+        <style>
+            body{
+                font-family: 'Courier New', Courier, monospace;
+                margin:0;
+            }
+            header, footer{
+                background:white url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg") scroll no-repeat bottom;
+                background-size: cover;
+                padding: 10px;
+                color:brown;
+                text-align:center;
+            }
+            footer{
+                line-height:10px;
+            }
+            /* MainNavigation */
+            nav{
+                background-color:#fa523b;
+                overflow:hidden;
+            }
+            nav ul{
+                list-style-type: none;
+                padding:0;
+                margin:0;
+            }
+            nav ul li{
+                float: left;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color:white;    
+                padding: 10px 25px;
+                display: inline-block;
+                font-size: 18px;
+            }
+            nav ul li a:hover{
+                background-color: #f7ec56;
+                color:brown;
+            }
+            nav ul li a.active{
+                background-color: #f7ec56;
+                color:brown;
+            }
+
+            /* Sidebar Navigation*/
+            aside{
+                background-color:#f0f6ba;
+                float: left;
+                width:200px;
+                text-align:center;
+                height:350px;
+                overflow-y: scroll;
+            }
+            aside ul{
+                list-style-type: none;
+                padding: 0;
+                margin:0;
+            }
+            aside ul li a{
+                text-decoration: none;
+                color:#fa523b;
+                padding:15px 25px;
+                display:block;
+            }
+            aside ul li a:hover{
+                background-color: #fa523b;
+                color:#fff;
+            }
+
+            /* Main Content section */
+            section{
+                margin-left:200px;
+                border-left:2px solid #d81236;
+                padding:10px;
+            }
+            details{
+                background-color: #f0f6ba;
+                margin:5px;
+                padding:10px;
+                color:#fa523b;
+                border-radius:20px;
+            }
+            article{
+                background-color:#f7ec56;
+                border-radius:5px;
+            }
+            summary{
+                outline:none;
+            }
+        </style>
+    </head>
+    <body>
+        <!--MainHeader-->
+        <header>
+            <h1>MyBlog for UI/UX</h1>
+            <p>The smart way of learning</p>
+        </header>
+
+        <!--MainNavigation-->
+        <nav>
+            <ul>
+                <li><a href="#" class="active"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home</a></li>
+                <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;About us</a></li>
+                <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;Contact us</a></li>
+                <li><a href="#"><i class="fa fa-book" aria-hidden="true"></i>&nbsp;Careers</a></li>
+                <li><a href="#">Courses</a></li>
+            </ul>
+        </nav>
+
+        <!--SidebarSection-->
+        <aside>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">Css</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">JQuery</a></li>
+                <li><a href="#">Ajax</a></li>
+                <li><a href="#">Bootstrap</a></li>
+                <li><a href="#">AngularJs</a></li>
+                <li><a href="#">TypeScript</a></li>
+            </ul>
+        </aside>
+
+        <!--MainContent-->
+        <section>
+            <!--HTML-->
+            <details>
+                <summary>HTML</summary>
+                <article>
+                    <h3>HTML</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eaque veritatis expedita velit sequi voluptas pariatur, inventore facilis reprehenderit assumenda, error aspernatur temporibus omnis fugit officiis nostrum aliquam. Labore, voluptatem!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta consectetur recusandae hic animi nam. Repellendus dolor aut fugiat labore amet eius reprehenderit molestias consectetur beatae corrupti temporibus nam, tempora perspiciatis?</p>
+                </article>
+            </details>
+
+            <!--CSS-->
+            <details>
+                <summary>CSS</summary>
+                <article>
+                    <h3>CSS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eaque veritatis expedita velit sequi voluptas pariatur, inventore facilis reprehenderit assumenda, error aspernatur temporibus omnis fugit officiis nostrum aliquam. Labore, voluptatem!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta consectetur recusandae hic animi nam. Repellendus dolor aut fugiat labore amet eius reprehenderit molestias consectetur beatae corrupti temporibus nam, tempora perspiciatis?</p>
+                </article>
+            </details>
+
+            <!--JavaScript-->
+            <details>
+                <summary>JavaScript</summary>
+                <article>
+                    <h3>JavaScript</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eaque veritatis expedita velit sequi voluptas pariatur, inventore facilis reprehenderit assumenda, error aspernatur temporibus omnis fugit officiis nostrum aliquam. Labore, voluptatem!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta consectetur recusandae hic animi nam. Repellendus dolor aut fugiat labore amet eius reprehenderit molestias consectetur beatae corrupti temporibus nam, tempora perspiciatis?</p>
+                </article>
+            </details>
+
+            <!--JQuery-->
+            <details>
+                <summary>JQuery</summary>
+                <article>
+                    <h3>JQuery</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eaque veritatis expedita velit sequi voluptas pariatur, inventore facilis reprehenderit assumenda, error aspernatur temporibus omnis fugit officiis nostrum aliquam. Labore, voluptatem!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta consectetur recusandae hic animi nam. Repellendus dolor aut fugiat labore amet eius reprehenderit molestias consectetur beatae corrupti temporibus nam, tempora perspiciatis?</p>
+                </article>
+            </details>
+
+            <!--Ajax-->
+            <details>
+                <summary>Ajax</summary>
+                <article>
+                    <h3>Ajax</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eaque veritatis expedita velit sequi voluptas pariatur, inventore facilis reprehenderit assumenda, error aspernatur temporibus omnis fugit officiis nostrum aliquam. Labore, voluptatem!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta consectetur recusandae hic animi nam. Repellendus dolor aut fugiat labore amet eius reprehenderit molestias consectetur beatae corrupti temporibus nam, tempora perspiciatis?</p>
+                </article>
+            </details>
+
+            <!--Bootstrap-->
+            <details>
+                <summary>Bootstrap</summary>
+                <article>
+                    <h3>Bootstrap</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eaque veritatis expedita velit sequi voluptas pariatur, inventore facilis reprehenderit assumenda, error aspernatur temporibus omnis fugit officiis nostrum aliquam. Labore, voluptatem!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta consectetur recusandae hic animi nam. Repellendus dolor aut fugiat labore amet eius reprehenderit molestias consectetur beatae corrupti temporibus nam, tempora perspiciatis?</p>
+                </article>
+            </details>
+
+            <!--AngularJs-->
+            <details>
+                <summary>AngularJs</summary>
+                <article>
+                    <h3>AngularJs</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eaque veritatis expedita velit sequi voluptas pariatur, inventore facilis reprehenderit assumenda, error aspernatur temporibus omnis fugit officiis nostrum aliquam. Labore, voluptatem!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta consectetur recusandae hic animi nam. Repellendus dolor aut fugiat labore amet eius reprehenderit molestias consectetur beatae corrupti temporibus nam, tempora perspiciatis?</p>
+                </article>
+            </details>
+
+            <!--TypeScript-->
+            <details>
+                <summary>TypeScript</summary>
+                <article>
+                    <h3>TypeScript</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eaque veritatis expedita velit sequi voluptas pariatur, inventore facilis reprehenderit assumenda, error aspernatur temporibus omnis fugit officiis nostrum aliquam. Labore, voluptatem!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta consectetur recusandae hic animi nam. Repellendus dolor aut fugiat labore amet eius reprehenderit molestias consectetur beatae corrupti temporibus nam, tempora perspiciatis?</p>
+                </article>
+            </details>
+        </section>
+
+        <!--MainFooter-->
+        <footer>
+            <h2>Copyright &copy; 2020, MyBlog for UI/UX</h2>
+            <p>All rights reserved</p>
+            <small>Developed and Maintained by Shreya Kumrawat</small>
+        </footer>
+    </body>
+</html>
